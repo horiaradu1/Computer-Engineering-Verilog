@@ -1,0 +1,28 @@
+ncvlog(64): 15.20-s010: (c) Copyright 1995-2016 Cadence Design Systems, Inc.
+TOOL:	ncvlog(64)	15.20-s010: Started on Jul 13, 2018 at 11:04:52 BST
+ncvlog
+    -use5x
+    -SPECIFICUNIT memory_mu0
+    -zparse /tmp/vamsZpari03411
+    -NOWARN DLNOHV
+    -work MU0_lib
+    -view functional
+    -nostdout
+    -logfile /home/mbassjsp/Cadence/COMP12111/.cadence/dfII/TextSupport/Logs/Parser/verilog/MU0_lib/functional/compile0.log
+    -messages
+    -cdslib /home/mbassjsp/Cadence/COMP12111/cds.lib
+    /home/mbassjsp/Cadence/COMP12111/MU0_lib/memory_mu0/functional/verilog.v
+
+file: /home/mbassjsp/Cadence/COMP12111/MU0_lib/memory_mu0/functional/verilog.v
+what a load of rubbish
+   |
+ncvlog: *E,EXPMPA (/home/mbassjsp/Cadence/COMP12111/MU0_lib/memory_mu0/functional/verilog.v,21|3): expecting the keyword 'module', 'macromodule' or 'primitive'[A.1].
+always @ (negedge Clk) // Done to make SRAM look like asynchronous RAM, makes simulation work
+     |
+ncvlog: *E,EXPLPA (/home/mbassjsp/Cadence/COMP12111/MU0_lib/memory_mu0/functional/verilog.v,115|5): expecting a left parenthesis ('(') [12.1.2][7.1(IEEE)].
+	module MU0_lib.memory_mu0:functional
+		errors: 1, warnings: 0
+	 writing out DPL output:
+	Total errors/warnings found outside modules and primitives:
+		errors: 1, warnings: 0
+TOOL:	ncvlog(64)	15.20-s010: Exiting on Jul 13, 2018 at 11:04:52 BST  (total: 00:00:00)

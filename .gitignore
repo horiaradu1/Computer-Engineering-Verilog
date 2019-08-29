@@ -1,0 +1,24 @@
+# Sample .gitignore file, place this in the top level of your git repository
+# Add any additional patterns for files to ignore after this line
+
+# ---------- Some standard ignore rules --------------
+# You probably want to leave the rest of this file as-is.
+
+# ignore backup files
+*~
+*.bak
+# ignore simvision passwd file
+.simvision/passwd
+# ignore cadence lock files
+*cdslck*
+# ignore simulation run directories
+# apart from stimulus files
+*_run1/*
+!*_run1/stimulus.v
+!*_run1/verilog.inpfiles
+!*_run1/ihnl
+# ignore xilinx compile build dir
+xilinx_compile/*
+# And some miscellaneous other things
+# **/node_modules
+# **/packages

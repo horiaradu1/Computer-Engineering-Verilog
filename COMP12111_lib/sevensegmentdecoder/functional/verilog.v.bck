@@ -1,0 +1,8 @@
+//Verilog HDL for "COMP12111_lib", "sevensegmentdecoder" "functional"
+
+
+module sevensegmentdecoder (input [3:0] bcd,
+			    output reg [7:0] segments);
+
+
+endmodule

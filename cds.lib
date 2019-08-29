@@ -1,0 +1,11 @@
+-- File Created by Jeff Pepper at Thu Jul 20 16:15:31 2006
+-- assisted by CdsLibEditor
+-- File Created by Jeff Pepper at Thu Jul 20 15:24:34 2006
+-- assisted by CdsLibEditor
+DEFINE basic $CDSDIR/tools/dfII/etc/cdslib/basic
+DEFINE US_8ths $CDSDIR/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE xiltmp xiltmp
+DEFINE spartan6 /opt/cadtools5/xil_cds_design_kits/MAY2016/spartan6
+DEFINE Board_lib Board_lib
+DEFINE COMP12111_lib COMP12111_lib
+DEFINE MU0_lib MU0_lib
