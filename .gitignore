@@ -19,6 +19,9 @@
 !*_run1/ihnl
 # ignore xilinx compile build dir
 xilinx_compile/*
+!xilinx_compile/cds.lib
+!xilinx_compile/MU0_demo.mem
+!xilinx_compile/*.bit
 # And some miscellaneous other things
 # **/node_modules
 # **/packages
