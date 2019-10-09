@@ -34,16 +34,58 @@ begin
 // 27 test vectors including the carry out
 // -------------------------------------------------
 
-
-
+//Check connections for A[4], B[4], S[4]
+#100 a=16'h0010; b=16'h0000;
+#100 a=16'h0000; b=16'h0010;
+//Check connections for  A[5], B[5], S[5]
+#100 a=16'h0020; b=16'h0000;
+#100 a=16'h0000; b=16'h0020;
+//Check connections for  A[6], B[6], S[6]
+#100 a=16'h0040; b=16'h0000;
+#100 a=16'h0000; b=16'h0040;
+//Check connections for  A[7], B[7], S[7]
+#100 a=16'h0080; b=16'h0000;
+#100 a=16'h0000; b=16'h0080;
+//Check connection of carry out of the second 4bit adder in to third 4-bit adder
+#100 a=16'h0080; b=16'h0080;
+// ----
+//Check connections for A[8], B[8], S[8]
+#100 a=16'h0100; b=16'h0000;
+#100 a=16'h0000; b=16'h0100;
+//Check connections for  A[9], B[9], S[9]
+#100 a=16'h0200; b=16'h0000;
+#100 a=16'h0000; b=16'h0200;
+//Check connections for  A[10], B[10], S[10]
+#100 a=16'h0400; b=16'h0000;
+#100 a=16'h0000; b=16'h0400;
+//Check connections for  A[11], B[11], S[11]
+#100 a=16'h0800; b=16'h0000;
+#100 a=16'h0000; b=16'h0800;
+//Check connection of carry out of the third 4bit adder in to fourth 4-bit adder
+#100 a=16'h0800; b=16'h0800;
+// ----
+//Check connections for A[12], B[12], S[12]
+#100 a=16'h1000; b=16'h0000;
+#100 a=16'h0000; b=16'h1000;
+//Check connections for  A[13], B[13], S[13]
+#100 a=16'h2000; b=16'h0000;
+#100 a=16'h0000; b=16'h2000;
+//Check connections for  A[14], B[14], S[14]
+#100 a=16'h4000; b=16'h0000;
+#100 a=16'h0000; b=16'h4000;
+//Check connections for  A[15], B[15], S[15]
+#100 a=16'h8000; b=16'h0000;
+#100 a=16'h0000; b=16'h8000;
+//Check connection of carry out of the fourth 4bit adder in to the final carry out
+#100 a=16'h8000; b=16'h8000;
 
 // Connectivity tests completed.
 
 // ADD TESTS FOR FINDING MAXIMUM CARRY DELAY HERE
 // 2 test vectors required - one to initialise followed by the 2nd to exercise
 // the critical path
-
-
+#100 a=16'hffff; b=16'h0000; cin=1;
+#100 a=16'h0000; b=16'hffff; cin=1;
 
 
 // -------------------------------------------------

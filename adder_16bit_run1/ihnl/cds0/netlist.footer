@@ -1,0 +1,7 @@
+AND2  I7 ( .O(net015), .I1(b), .I0(a));
+AND2  I6 ( .O(net016), .I1(cin), .I0(net09));
+XOR2  I5 ( .O(net09), .I1(b), .I0(a));
+XOR2  I4 ( .O(s), .I1(cin), .I0(net09));
+OR2  I8 ( .O(cout), .I1(net016), .I0(net015));
+
+endmodule
