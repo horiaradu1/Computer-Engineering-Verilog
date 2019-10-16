@@ -1,0 +1,7 @@
+ncvlog(64): 15.20-s038: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+file: testfixture.template
+#100 bcd=0;
+       |
+ncvlog: *E,UNDIDN (/home/k55592hr/Cadence/COMP12111/sevensegmentdecoder_test_run1/testfixture.verilog,16|7): 'bcd': undeclared identifier [12.5(IEEE)].
+	module check.test
+		errors: 1, warnings: 0

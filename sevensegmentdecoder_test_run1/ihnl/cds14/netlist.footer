@@ -1,0 +1,30 @@
+BoardV2 I13 ( net34, net35, net24, net25, net26, net27, net32, net33,
+     Key_row1[7:0], net30[0:7], net28[0:7], net31[0:7], net36, net37,
+     net5, net4, net6[0:15], net7[0:11], net8[0:15], net9, net10,
+     net11, {net05, net05, net05, net05, net05, net05, net05, net05},
+     net22, net12, net15[0:7], {net010, net010, net010, net010, net010,
+     net010, net010, net010}, {net09, net09, net09, net09, net09,
+     net09, net09, net09}, {net08, net08, net08, net08, net08, net08,
+     net08, net08}, {net07, net07, net07, net07, net07, net07, net07,
+     net07}, {net06, net06, net06, net06, net06, net06, net06, net06},
+     {net038, net038, net038, net038, net038, net038}, {net014, net014,
+     net014, net014}, {net04, net04, net04, net04, net04, net04}, net3,
+     net3, {net3, net3, net3, net3, net3, net3, net3, net3, net3, net3,
+     net3, net3, net3, net3, net3, net3}, {net3, net3, net3, net3},
+     {net3, net3, net3, net3, net3, net3, net3, net3, net3, net3, net3,
+     net3, net3, net3, net3, net3}, net3, net3);
+GND  I30 ( .G(net04));
+GND  I29 ( .G(net05));
+GND  I36 ( .G(net010));
+GND  I35 ( .G(net09));
+GND  I34 ( .G(net08));
+GND  I33 ( .G(net07));
+GND  I19 ( .G(net3));
+GND  I32 ( .G(net06));
+GND  I24 ( .G(net12));
+GND  I23 ( .G(net22));
+GND  I20 ( .G(net014));
+sevensegmentdecoder I31 ( Key_row1[3:0], net15[0:7]);
+VCC  I37 ( .P(net038));
+
+endmodule

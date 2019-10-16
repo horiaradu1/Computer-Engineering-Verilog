@@ -1,0 +1,33 @@
+// Library - COMP12111_lib, Cell - sevensegmentdecoder_test, View -
+//schematic
+// LAST TIME SAVED: Oct 15 16:34:06 2019
+// NETLIST TIME: Oct 15 16:50:17 2019
+`timescale 1ns / 10ps 
+
+module sevensegmentdecoder_test (  );
+
+// Buses in the design
+
+wire  [0:15]  net8;
+
+wire  [0:7]  net31;
+
+wire  [0:7]  net15;
+
+wire  [7:0]  Key_row1;
+
+wire  [0:7]  net28;
+
+wire  [0:11]  net7;
+
+wire  [0:15]  net6;
+
+wire  [0:7]  net30;
+
+
+specify 
+    specparam CDS_LIBNAME  = "COMP12111_lib";
+    specparam CDS_CELLNAME = "sevensegmentdecoder_test";
+    specparam CDS_VIEWNAME = "schematic";
+endspecify
+
