@@ -1,0 +1,8 @@
+CADENCE IHNL11140
+$model
+TEST/adder_8bit/functional adder_8bit
+$endmodel
+$net
+$endnet
+$param
+$endparam

@@ -9,3 +9,4 @@ DEFINE spartan6 /opt/cadtools5/xil_cds_design_kits/MAY2016/spartan6
 DEFINE Board_lib Board_lib
 DEFINE COMP12111_lib COMP12111_lib
 DEFINE MU0_lib MU0_lib
+DEFINE TEST /home/k55592hr/Cadence/COMP12111/TEST

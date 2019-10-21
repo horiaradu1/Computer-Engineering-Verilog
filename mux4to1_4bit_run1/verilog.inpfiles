@@ -1,0 +1,19 @@
+// Verilog HDL and netlist files of
+// "TEST mux4to1_4bit functional"
+
+// HDL models
+
+// HDL file for TEST, mux4to1_4bit, functional.
+/home/k55592hr/Cadence/COMP12111/TEST/mux4to1_4bit/functional/verilog.v
+
+
+
+// End HDL models
+
+// Netlisted models
+
+// netlist file - TEST, mux4to1_4bit, functional.
+ihnl/cds0/netlist
+
+
+// End HDL models

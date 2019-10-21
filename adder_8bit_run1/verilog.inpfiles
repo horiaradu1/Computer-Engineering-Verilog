@@ -1,0 +1,19 @@
+// Verilog HDL and netlist files of
+// "TEST adder_8bit functional"
+
+// HDL models
+
+// HDL file for TEST, adder_8bit, functional.
+/home/k55592hr/Cadence/COMP12111/TEST/adder_8bit/functional/verilog.v
+
+
+
+// End HDL models
+
+// Netlisted models
+
+// netlist file - TEST, adder_8bit, functional.
+ihnl/cds0/netlist
+
+
+// End HDL models

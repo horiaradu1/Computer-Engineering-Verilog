@@ -1,6 +1,6 @@
 // Library - COMP12111_lib, Cell - adder_16bit, View - schematic
 // LAST TIME SAVED: Oct  3 15:39:14 2019
-// NETLIST TIME: Oct  7 14:44:32 2019
+// NETLIST TIME: Oct 19 18:10:21 2019
 `timescale 1ns / 10ps 
 
 module adder_16bit ( cout, s, a, b, cin );

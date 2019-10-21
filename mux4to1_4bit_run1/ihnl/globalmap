@@ -1,0 +1,8 @@
+CADENCE IHNL11140
+$model
+TEST/mux4to1_4bit/functional mux4to1_4bit
+$endmodel
+$net
+$endnet
+$param
+$endparam
