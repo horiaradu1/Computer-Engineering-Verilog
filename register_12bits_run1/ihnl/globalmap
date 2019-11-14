@@ -1,0 +1,8 @@
+CADENCE IHNL11140
+$model
+TEST/register_12bits/functional register_12bits
+$endmodel
+$net
+$endnet
+$param
+$endparam

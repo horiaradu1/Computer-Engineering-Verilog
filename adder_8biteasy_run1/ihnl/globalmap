@@ -1,0 +1,8 @@
+CADENCE IHNL11140
+$model
+TEST/adder_8biteasy/functional adder_8biteasy
+$endmodel
+$net
+$endnet
+$param
+$endparam

@@ -1,0 +1,63 @@
+// Library - COMP12111_lib, Cell - trafficlight_test, View - schematic
+// LAST TIME SAVED: Nov 12 16:14:50 2019
+// NETLIST TIME: Nov 14 13:53:42 2019
+`timescale 1ns / 10ps 
+
+module trafficlight_test (  );
+
+// Buses in the design
+
+wire  [7:0]  Key_row4;
+
+wire  [0:11]  net7;
+
+wire  [0:15]  net8;
+
+wire  [0:5]  net13;
+
+wire  [0:15]  net6;
+
+wire  [0:7]  net29;
+
+wire  [0:7]  net28;
+
+wire  [0:7]  net30;
+
+
+specify 
+    specparam CDS_LIBNAME  = "COMP12111_lib";
+    specparam CDS_CELLNAME = "trafficlight_test";
+    specparam CDS_VIEWNAME = "schematic";
+endspecify
+
+BoardV2 I13 ( net34, net35, clock, net25, net26, net27, net32, net33,
+     net29[0:7], net30[0:7], net28[0:7], Key_row4[7:0], net36, net37,
+     net5, net4, net6[0:15], net7[0:11], net8[0:15], net9, net10,
+     net11, {net05, net05, net05, net05, net05, net05, net05, net05},
+     net22, net12, {net06, net06, net06, net06, net06, net06, net06,
+     net06}, {net07, net07, net07, net07, net07, net07, net07, net07},
+     {net08, net08, net08, net08, net08, net08, net08, net08}, {net09,
+     net09, net09, net09, net09, net09, net09, net09}, {net010, net010,
+     net010, net010, net010, net010, net010, net010}, {net011, net011,
+     net011, net011, net011, net011, net011, net011}, {net012, net012,
+     net012, net012, net012, net012}, {net015, net015, net015, net015},
+     net13[0:5], net3, net3, {net3, net3, net3, net3, net3, net3, net3,
+     net3, net3, net3, net3, net3, net3, net3, net3, net3}, {net3,
+     net3, net3, net3}, {net3, net3, net3, net3, net3, net3, net3,
+     net3, net3, net3, net3, net3, net3, net3, net3, net3}, net3,
+     net3);
+GND  I31 ( .G(net05));
+GND  I30 ( .G(net06));
+GND  I29 ( .G(net07));
+GND  I28 ( .G(net08));
+GND  I27 ( .G(net09));
+GND  I26 ( .G(net010));
+GND  I25 ( .G(net011));
+GND  I19 ( .G(net3));
+GND  I22 ( .G(net22));
+GND  I24 ( .G(net012));
+GND  I23 ( .G(net12));
+GND  I21 ( .G(net015));
+trafficlight I20 ( net13[0:5], clock, Key_row4[7], Key_row4[6]);
+
+endmodule

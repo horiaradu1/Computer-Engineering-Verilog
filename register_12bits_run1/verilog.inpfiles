@@ -1,0 +1,19 @@
+// Verilog HDL and netlist files of
+// "TEST register_12bits functional"
+
+// HDL models
+
+// HDL file for TEST, register_12bits, functional.
+/home/k55592hr/Cadence/COMP12111/TEST/register_12bits/functional/verilog.v
+
+
+
+// End HDL models
+
+// Netlisted models
+
+// netlist file - TEST, register_12bits, functional.
+ihnl/cds0/netlist
+
+
+// End HDL models

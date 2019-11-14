@@ -1,7 +1,7 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 09/11/2017 15:13 (sjfnl050) $
 \o Sub version:		sub-version  s057 
-\o Arguments:		-unmapped -mpssession virtuoso7626 -mpshost e-c07kilf1624.it.manchester.ac.uk 
-\o Working Directory:	e-c07kilf1624.it.manchester.ac.uk:/home/k55592hr/Cadence/COMP12111
+\o Arguments:		-unmapped -mpssession virtuoso5981 -mpshost e-c07kilf1609.it.manchester.ac.uk 
+\o Working Directory:	e-c07kilf1609.it.manchester.ac.uk:/home/k55592hr/Cadence/COMP12111
 \o 64-bit offsets
 \o Qt version: 		4.8.5
 \o changeWorkingDir("/home/k55592hr/Cadence/COMP12111") unnecessary.
@@ -12,107 +12,64 @@
 \o MPS service: map window
 \o Library Manager customization server connected.
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(120 275 602 491))
+\a nrResizeWindow(cdsLibManager list(1099 99 602 491))
 \a cdsLibManager->libListBox->value = "MU0_lib"
 \a cdsLibManager->libLineEdit->value = "MU0_lib"
-\a cdsLibManager->libListBox->value = "TEST"
-\a cdsLibManager->libLineEdit->value = "TEST"
-\a cdsLibManager->cellListBox->value = "adder_8bit"
-\a cdsLibManager->cellLineEdit->value = "adder_8bit"
-\a cdsLibManager->viewListBox->value = "functional"
-\a cdsLibManager->viewLineEdit->value = "functional"
-\a cdsLibManager->cellListBox->value = "fulladder"
-\a cdsLibManager->cellLineEdit->value = "fulladder"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "functional"
-\a cdsLibManager->viewLineEdit->value = "functional"
-\a cdsLibManager->cellListBox->value = "mux4to1_4bit"
-\a cdsLibManager->cellLineEdit->value = "mux4to1_4bit"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "functional"
-\a cdsLibManager->viewLineEdit->value = "functional"
-\a cdsLibManager->cellListBox->value = "adder_8bit"
-\a cdsLibManager->cellLineEdit->value = "adder_8bit"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "functional"
-\a cdsLibManager->viewLineEdit->value = "functional"
-\a cdsLibManager->libListBox->value = "COMP12111_lib"
-\a cdsLibManager->libLineEdit->value = "COMP12111_lib"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "sevensegmentdecoder_test"
-\a cdsLibManager->cellLineEdit->value = "sevensegmentdecoder_test"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "sevensegmentdecoder"
-\a cdsLibManager->cellLineEdit->value = "sevensegmentdecoder"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "functional"
-\a cdsLibManager->viewLineEdit->value = "functional"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 1)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "COMP12111_lib"
-\a cdsLibManager->libLineEdit->value = "COMP12111_lib"
-\a cdsLibManager->cellListBox->value = "sevensegmentdecoder"
-\a cdsLibManager->cellLineEdit->value = "sevensegmentdecoder"
-\a cdsLibManager->viewListBox->value = "functional"
-\a cdsLibManager->viewLineEdit->value = "functional"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "functional"
-\a cdsLibManager->viewLineEdit->value = "functional"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "sevensegmentdecoder_test"
-\a cdsLibManager->cellLineEdit->value = "sevensegmentdecoder_test"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "sevensegmentdecoder_test"
-\a cdsLibManager->cellLineEdit->value = "sevensegmentdecoder_test"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "MU0_datapath"
+\a cdsLibManager->cellLineEdit->value = "MU0_datapath"
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->cellListBox 4 0)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "MU0_lib"
+\a cdsLibManager->libLineEdit->value = "MU0_lib"
+\a cdsLibManager->cellListBox->value = "MU0_datapath"
+\a cdsLibManager->cellLineEdit->value = "MU0_datapath"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "MU0_lib"
+\a cdsLibManager->libLineEdit->value = "MU0_lib"
+\a cdsLibManager->cellListBox->value = "MU0_datapath"
+\a cdsLibManager->cellLineEdit->value = "MU0_datapath"
+\a nrSetCurrentWindow(cdsLibManager)
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libListBox->value = "COMP12111_lib"
 \a cdsLibManager->libLineEdit->value = "COMP12111_lib"
-\a cdsLibManager->cellListBox->value = "sevensegmentdecoder_test"
-\a cdsLibManager->cellLineEdit->value = "sevensegmentdecoder_test"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = "trafficlight"
+\a cdsLibManager->cellLineEdit->value = "trafficlight"
+\a cdsLibManager->viewListBox->value = "functional"
+\a cdsLibManager->viewLineEdit->value = "functional"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "functional"
+\a cdsLibManager->viewLineEdit->value = "functional"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
 \a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "functional"
+\a cdsLibManager->viewLineEdit->value = "functional"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
 \a nrSetCurrentWindow(cdsLibManager)
 \a _lmgrCloseIconify("cdsLibManager" 1)
 \a nrSetCurrentWindow(cdsLibManager)
-\a _lmgrCloseIconify("cdsLibManager" 1)
-\a nrSetCurrentWindow(cdsLibManager)
-\a _lmgrCloseIconify("cdsLibManager" 1)
 \o MPS service: shutdown
 \o libManager is exiting.
 \a nrSetWindowVisibility(cdsLibManager "hide")

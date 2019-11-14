@@ -1,7 +1,7 @@
 // Library - COMP12111_lib, Cell - sevensegmentdecoder_test, View -
 //schematic
 // LAST TIME SAVED: Oct 15 16:34:06 2019
-// NETLIST TIME: Oct 15 16:50:17 2019
+// NETLIST TIME: Nov  6 11:18:15 2019
 `timescale 1ns / 10ps 
 
 module sevensegmentdecoder_test (  );

@@ -1,0 +1,32 @@
+// Library - COMP12111_lib, Cell - trafficlight_test, View - schematic
+// LAST TIME SAVED: Nov 12 16:14:50 2019
+// NETLIST TIME: Nov 14 13:53:42 2019
+`timescale 1ns / 10ps 
+
+module trafficlight_test (  );
+
+// Buses in the design
+
+wire  [7:0]  Key_row4;
+
+wire  [0:11]  net7;
+
+wire  [0:15]  net8;
+
+wire  [0:5]  net13;
+
+wire  [0:15]  net6;
+
+wire  [0:7]  net29;
+
+wire  [0:7]  net28;
+
+wire  [0:7]  net30;
+
+
+specify 
+    specparam CDS_LIBNAME  = "COMP12111_lib";
+    specparam CDS_CELLNAME = "trafficlight_test";
+    specparam CDS_VIEWNAME = "schematic";
+endspecify
+
