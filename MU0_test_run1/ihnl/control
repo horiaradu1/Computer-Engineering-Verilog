@@ -19,8 +19,8 @@ hnlLastStopCellInfo = '(
                           ( "spartan6" "NOR4" "symbol" "77" "1464103796" )
                           ( "spartan6" "FDCE" "symbol" "79" "1464103796" )
                           ( "spartan6" "GND" "symbol" "28" "1464103797" )
-                          ( "MU0_lib" "mux_2to1_12bit" "functional" "1321" "1573678739" )
-                          ( "MU0_lib" "mux_2to1_16bit" "functional" "1669" "1573678838" )
+                          ( "MU0_lib" "mux_2to1_12bit" "functional" "1951" "1573832312" )
+                          ( "MU0_lib" "mux_2to1_16bit" "functional" "2467" "1573832365" )
                           ( "MU0_lib" "memory_mu0" "functional" "61840" "1570008620" )
                        )
 hnlLastMaxNameLength = 50

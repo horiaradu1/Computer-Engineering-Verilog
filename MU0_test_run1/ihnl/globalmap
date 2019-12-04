@@ -1,16 +1,16 @@
 CADENCE IHNL11140
 $model
 OR3 OR3
-XOR2 XOR2
 MU0_lib/MU0/schematic MU0
-AND4B1 AND4B1
+XOR2 XOR2
 AND3B2 AND3B2
+AND4B1 AND4B1
 MU0_lib/MU0_control/schematic MU0_control
 COMP12111_lib/adder_16bit/schematic adder_16bit
-BUF BUF
 MU0_lib/MU0_datapath/schematic MU0_datapath
-NOR4 NOR4
+BUF BUF
 OR2B1 OR2B1
+NOR4 NOR4
 AND4 AND4
 INV INV
 AND3B1 AND3B1

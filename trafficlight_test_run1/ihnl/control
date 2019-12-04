@@ -20,7 +20,7 @@ hnlLastStopCellInfo = '(
                           ( "spartan6" "GND" "symbol" "28" "1464103797" )
                           ( "spartan6" "FDE" "symbol" "65" "1464103797" )
                           ( "spartan6" "VCC" "symbol" "27" "1464103796" )
-                          ( "COMP12111_lib" "trafficlight" "functional" "1535" "1573737392" )
+                          ( "COMP12111_lib" "trafficlight" "functional" "1628" "1573739977" )
                        )
 hnlLastMaxNameLength = 50
 hnlLastNamePrefix = "hnl_"

@@ -36,7 +36,7 @@ begin
 // Set input signals here, using delays where appropriate
 // -----------------------------------------------------
 #100  reset=1; start=0;
-#100  reset=0; start=1;		//This will go from 0-1-2-3-4-5-6-7-0, testing the firt possible path
+#100  reset=0; start=1;		//This will go from 0-1-2-3-4-5-6-7-0, testing the first possible path
 #50   start=0;
 
 #800  reset=1;			//This will reset the sequential design, getting ready to test the next path
@@ -56,7 +56,7 @@ begin
 #650  start=1;
 
 #200  reset=1; start=0;
-#50   reset=0;
+#50   reset=0; start='hx;
 #500
 
 #100 $stop;

@@ -1,6 +1,6 @@
 // Library - MU0_lib, Cell - MU0_datapath, View - schematic
 // LAST TIME SAVED: Nov 13 22:25:36 2019
-// NETLIST TIME: Nov 13 22:51:02 2019
+// NETLIST TIME: Nov 18 14:37:56 2019
 `timescale 1ns / 10ps 
 
 module MU0_datapath ( Acc, Addr, Dout, F, N, PC, Z, Acc_En, Clk, Din,

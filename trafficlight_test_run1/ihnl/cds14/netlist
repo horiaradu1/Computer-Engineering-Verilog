@@ -1,6 +1,6 @@
 // Library - COMP12111_lib, Cell - trafficlight_test, View - schematic
 // LAST TIME SAVED: Nov 12 16:14:50 2019
-// NETLIST TIME: Nov 14 13:53:42 2019
+// NETLIST TIME: Nov 20 09:56:03 2019
 `timescale 1ns / 10ps 
 
 module trafficlight_test (  );
